@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/profolio/static/css/main.a4540c6b.chunk.css",
-    "main.js": "/profolio/static/js/main.e58d163b.chunk.js",
-    "main.js.map": "/profolio/static/js/main.e58d163b.chunk.js.map",
+    "main.js": "/profolio/static/js/main.d2e01bf2.chunk.js",
+    "main.js.map": "/profolio/static/js/main.d2e01bf2.chunk.js.map",
     "runtime-main.js": "/profolio/static/js/runtime-main.b74864fc.js",
     "runtime-main.js.map": "/profolio/static/js/runtime-main.b74864fc.js.map",
     "static/css/2.b8bbb11a.chunk.css": "/profolio/static/css/2.b8bbb11a.chunk.css",
-    "static/js/2.07a18966.chunk.js": "/profolio/static/js/2.07a18966.chunk.js",
-    "static/js/2.07a18966.chunk.js.map": "/profolio/static/js/2.07a18966.chunk.js.map",
+    "static/js/2.e29d70e7.chunk.js": "/profolio/static/js/2.e29d70e7.chunk.js",
+    "static/js/2.e29d70e7.chunk.js.map": "/profolio/static/js/2.e29d70e7.chunk.js.map",
     "index.html": "/profolio/index.html",
     "static/css/2.b8bbb11a.chunk.css.map": "/profolio/static/css/2.b8bbb11a.chunk.css.map",
     "static/css/main.a4540c6b.chunk.css.map": "/profolio/static/css/main.a4540c6b.chunk.css.map",
-    "static/js/2.07a18966.chunk.js.LICENSE.txt": "/profolio/static/js/2.07a18966.chunk.js.LICENSE.txt",
+    "static/js/2.e29d70e7.chunk.js.LICENSE.txt": "/profolio/static/js/2.e29d70e7.chunk.js.LICENSE.txt",
     "static/media/2048MobileGame.mp4": "/profolio/static/media/2048MobileGame.012b3d02.mp4",
+    "static/media/3dRpg.png": "/profolio/static/media/3dRpg.f465ce7d.png",
     "static/media/Appprototype.png": "/profolio/static/media/Appprototype.cae27dd9.png",
     "static/media/angular.jpg": "/profolio/static/media/angular.b5045666.jpg",
     "static/media/bootstrap.jpg": "/profolio/static/media/bootstrap.bd712487.jpg",
@@ -32,13 +33,14 @@
     "static/media/team-2-800x800.jpg": "/profolio/static/media/team-2-800x800.3e08ef14.jpg",
     "static/media/team-3-800x800.jpg": "/profolio/static/media/team-3-800x800.19201574.jpg",
     "static/media/team-4-470x470.png": "/profolio/static/media/team-4-470x470.4ef82ef4.png",
+    "static/media/unreal FPs.png": "/profolio/static/media/unreal FPs.a38c7b44.png",
     "static/media/vue.jpg": "/profolio/static/media/vue.43bd93a8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b74864fc.js",
     "static/css/2.b8bbb11a.chunk.css",
-    "static/js/2.07a18966.chunk.js",
+    "static/js/2.e29d70e7.chunk.js",
     "static/css/main.a4540c6b.chunk.css",
-    "static/js/main.e58d163b.chunk.js"
+    "static/js/main.d2e01bf2.chunk.js"
   ]
 }

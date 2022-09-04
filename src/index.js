@@ -12,9 +12,9 @@ import Auth from "layouts/Auth.js";
 
 // views without layouts
 
-import Landing from "views/Landing.js";
+import Project from "views/Project.js";
 import Profile from "views/Profile.js";
-import Index from "views/Index.js";
+import Profolio from "views/Profolio";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -23,9 +23,9 @@ ReactDOM.render(
       {/* <Route path="/admin" component={Admin} /> */}
       <Route path="/auth" component={Auth} />
       {/* add routes without layouts */}
-      {/* <Route path="/landing" exact component={Landing} /> */}
+      {/* <Route path="/project1" exact component={Project} />  */}
       <Route path="/" exact component={Profile} />
-      <Route path="/collection" exact component={Index} />
+      <Route path="/collection" exact component={Profolio} />
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />
     </Switch>

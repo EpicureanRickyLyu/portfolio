@@ -19,7 +19,7 @@ export default function Profolio() {
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
               I respect tech, aiming to become a great tech expertise ! !<br/>
-              Let`s just keep in touch first (๑•̀ㅂ•́)و✧ ! ! !
+              Let's keep in touch first (๑•̀ㅂ•́)و✧ ! ! !
               </p>
       
             </div>

@@ -75,7 +75,7 @@ export default function Profile() {
                     <br/><br/>
                     Others: Adobe Photoshop, Adobe Premiere Pro, Adobe After Effects
                     <br/><br/>
-                    Language: Chinese, English
+                    Language: Mandarine, English
                     </div>
                   </div>
   

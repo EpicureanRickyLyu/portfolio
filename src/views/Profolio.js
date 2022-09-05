@@ -15,11 +15,11 @@ export default function Profolio() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600">
-              Under construction.......
+              Under construction....not everthing is here but will be soon
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Not everything is showing here, but will be soon ! ! ! <br/>
-                Let`s just keep in touch first ! ! !
+              I respect tech, aiming to become a great tech expertise ! !<br/>
+              Let`s just keep in touch first (๑•̀ㅂ•́)و✧ ! ! !
               </p>
       
             </div>
@@ -54,7 +54,7 @@ export default function Profolio() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                      Virtual Theme Park 
                   </h5>
-                  <Link to="/">
+                  <Link to="/project1">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -82,46 +82,15 @@ export default function Profolio() {
 
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                  master degree final project
-                  </h5>
-                  <Link to="/">
-                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
-                      <img
-                        alt="..."
-                        className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/master final project.png").default}
-                      />
-                      
-                    </div>
-                  </Link>
-                </div>
-
-                <div className="w-full lg:w-4/12 px-4">
-                  <h5 className="text-xl font-semibold pb-4 text-center">
                   Virtual Museum Exhibition
                   </h5>
-                  <Link to="/">
+                  <Link to="/VirtualMuseum">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
                         src={require("assets/img/museum.png").default}
                       />
-                    </div>
-                  </Link>
-                </div>
-
-                <div className="w-full lg:w-4/12 px-4">
-                  <h5 className="text-xl font-semibold pb-4 text-center">
-                    3d Parkour Game 
-                  </h5>
-                  <Link to="/">
-                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
-                      <img
-                        alt="..."
-                        className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/parkourgame.png").default}
-                      />     
                     </div>
                   </Link>
                 </div>
@@ -143,37 +112,65 @@ export default function Profolio() {
                   
                   <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    3D RPG GAME
+                    RPG Demo
                   </h5>
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
-                      <a href="https://epicureanrickylyu.github.io/MyProfolio/">
+                      <Link to='/RpgDemo'>
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
                         src={require("assets/img/3dRpg.png").default}
                       />  
-                      </a>              
+                      </Link>             
                     </div>   
                                     
                   </div>  
                   <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    3D FPS GAME
+                    FPS demo
                   </h5>
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
-                      <a href="https://epicureanrickylyu.github.io/MyProfolio/">
+                      <Link to='/FpsDemo'>
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
                         src={require("assets/img/unreal FPs.png").default}
                       />  
-                      </a>              
+                      </Link>             
                     </div>                   
                   </div>
+
+                  <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold pb-4 text-center">
+                  master degree final project
+                  </h5>
+                  <Link to="/">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/master final project.png").default}
+                      />
+                      
+                    </div>
+                  </Link>
+                </div>
+
+                  <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold pb-4 text-center">
+                    3d Parkour Game 
+                  </h5>
+                  <Link to="/">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/parkourgame.png").default}
+                      />     
+                    </div>
+                  </Link>
+                </div>
                    
-                  
-
-
               </div>
             </div>
           </div>
@@ -205,7 +202,9 @@ export default function Profolio() {
           <div className="flex flex-wrap items-center">
             <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
-                
+              <h4 className="text-3xl font-normal leading-normal mt-0 mb-2 text-lightBlue-800">
+                ---IOS Game App
+              </h4>
                 <blockquote className="relative p-8 mb-4">
                   
                   <video autoPlay muted loop>
@@ -217,7 +216,9 @@ export default function Profolio() {
             </div>
             <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
-                
+              <h4 className="text-3xl font-normal leading-normal mt-0 mb-2 text-lightBlue-800">
+                ---Android Blog App
+              </h4>
                 <blockquote className="relative p-8 mb-4">
                   
                     <img
@@ -230,25 +231,6 @@ export default function Profolio() {
               </div>
             </div>
 
-            <div className="w-full md:w-6/12 px-4">
-              <div className="flex flex-wrap">
-                <div className="w-full md:w-6/12 px-4">
-                  <div className="relative flex flex-col mt-4">
-                    <div className="px-4 py-5 flex-auto">
-                      <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-sitemap"></i>
-                      </div>
-                      <h6 className="text-xl mb-1 font-semibold">
-                        Unity3D
-                      </h6>
-                      <p className="mb-4 text-blueGray-500">
-                      Mobile Puzzle Game  
-                      </p>
-                    </div>             
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
 

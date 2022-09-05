@@ -11,10 +11,13 @@ import Admin from "layouts/Admin.js";
 import Auth from "layouts/Auth.js";
 
 // views without layouts
-
+import ThemPark from "views/Project/ThemPark";
+import VirtualMuseum from "views/Project/VirtualMusem.js";
 import Project from "views/Project.js";
 import Profile from "views/Profile.js";
 import Profolio from "views/Profolio";
+import FpsDemo from "views/Project/fpsDemo";
+import RpgDemo from "views/Project/rpgDemo"
 
 ReactDOM.render(
   <BrowserRouter>
@@ -24,6 +27,10 @@ ReactDOM.render(
       <Route path="/auth" component={Auth} />
       {/* add routes without layouts */}
       {/* <Route path="/project1" exact component={Project} />  */}
+      <Route path="/FpsDemo" component={FpsDemo}  ></Route>
+      <Route path="/RpgDemo" component={RpgDemo}  ></Route>
+      <Route path="/project1" component={ThemPark}  ></Route>
+      <Route path="/VirtualMuseum" component={VirtualMuseum}  ></Route>
       <Route path="/" exact component={Profile} />
       <Route path="/collection" exact component={Profolio} />
       {/* add redirect for first page */}
@@ -32,3 +39,4 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById("root")
 );
+

@@ -53,14 +53,14 @@ export default function Navbar(props) {
                   Profolio
                 </Link>
               </li>
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                   <Link
-                  to="/project1"
+                  to="/"
                   className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
                   >
                   Education
                 </Link>
-              </li>
+              </li> */}
               {/* <li className="flex items-center">
                   <Link
                   to="/"

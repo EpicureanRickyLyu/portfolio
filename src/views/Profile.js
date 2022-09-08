@@ -20,7 +20,9 @@ export default function Profile() {
             <span
               id="blackOverlay"
               className="w-full h-full absolute opacity-50 bg-black"
-            ></span>
+            >
+                
+            </span>
           </div>
           <div
             className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"

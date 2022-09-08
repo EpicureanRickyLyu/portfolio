@@ -13,6 +13,7 @@ import Auth from "layouts/Auth.js";
 // views without layouts
 import ThemPark from "views/Project/ThemPark";
 import VirtualMuseum from "views/Project/VirtualMusem.js";
+import Application from "views/Project/Application";
 import Project from "views/Project.js";
 import Profile from "views/Profile.js";
 import Profolio from "views/Profolio";
@@ -27,6 +28,7 @@ ReactDOM.render(
       <Route path="/auth" component={Auth} />
       {/* add routes without layouts */}
       {/* <Route path="/project1" exact component={Project} />  */}
+      <Route path="/Application" component={Application}  ></Route>
       <Route path="/FpsDemo" component={FpsDemo}  ></Route>
       <Route path="/RpgDemo" component={RpgDemo}  ></Route>
       <Route path="/project1" component={ThemPark}  ></Route>

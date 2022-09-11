@@ -7,6 +7,10 @@ import Navbar from "components/Navbars/AuthNavbar";
 import Footer from "components/Footers/Footer.js";
 
 export default function Profolio() {
+  const ClickAlert = () => {
+    alert("Coming Soon ! Find it in Home Page Video first !")
+  }
+
   return (
     <>
       <IndexNavbar transparent />
@@ -152,6 +156,7 @@ export default function Profolio() {
                   <Link to="/">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
+                      onClick={ClickAlert}
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
                         src={require("assets/img/master final project.png").default}
@@ -168,6 +173,7 @@ export default function Profolio() {
                   <Link to="/">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
+                      onClick={ClickAlert}
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
                         src={require("assets/img/parkourgame.png").default}

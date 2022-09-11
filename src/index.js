@@ -33,8 +33,8 @@ ReactDOM.render(
       <Route path="/RpgDemo" component={RpgDemo}  ></Route>
       <Route path="/project1" component={ThemPark}  ></Route>
       <Route path="/VirtualMuseum" component={VirtualMuseum}  ></Route>
-      <Route path="/" exact component={Profile} />
-      <Route path="/collection" exact component={Profolio} />
+      <Route path="/collection" exact component={Profile} />
+      <Route path="/" exact component={Profolio} />
       {/* add redirect for first page */}
       <Redirect from="*" to="/" />
     </Switch>

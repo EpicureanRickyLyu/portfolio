@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/profolio/static/css/main.a4540c6b.chunk.css",
-    "main.js": "/profolio/static/js/main.8609d5c8.chunk.js",
-    "main.js.map": "/profolio/static/js/main.8609d5c8.chunk.js.map",
+    "main.js": "/profolio/static/js/main.40399170.chunk.js",
+    "main.js.map": "/profolio/static/js/main.40399170.chunk.js.map",
     "runtime-main.js": "/profolio/static/js/runtime-main.b74864fc.js",
     "runtime-main.js.map": "/profolio/static/js/runtime-main.b74864fc.js.map",
     "static/css/2.b8bbb11a.chunk.css": "/profolio/static/css/2.b8bbb11a.chunk.css",
-    "static/js/2.1a83e004.chunk.js": "/profolio/static/js/2.1a83e004.chunk.js",
-    "static/js/2.1a83e004.chunk.js.map": "/profolio/static/js/2.1a83e004.chunk.js.map",
+    "static/js/2.f4704a06.chunk.js": "/profolio/static/js/2.f4704a06.chunk.js",
+    "static/js/2.f4704a06.chunk.js.map": "/profolio/static/js/2.f4704a06.chunk.js.map",
     "index.html": "/profolio/index.html",
     "static/css/2.b8bbb11a.chunk.css.map": "/profolio/static/css/2.b8bbb11a.chunk.css.map",
     "static/css/main.a4540c6b.chunk.css.map": "/profolio/static/css/main.a4540c6b.chunk.css.map",
-    "static/js/2.1a83e004.chunk.js.LICENSE.txt": "/profolio/static/js/2.1a83e004.chunk.js.LICENSE.txt",
+    "static/js/2.f4704a06.chunk.js.LICENSE.txt": "/profolio/static/js/2.f4704a06.chunk.js.LICENSE.txt",
     "static/media/2048MobileGame.mp4": "/profolio/static/media/2048MobileGame.012b3d02.mp4",
     "static/media/3dRpg.png": "/profolio/static/media/3dRpg.f465ce7d.png",
     "static/media/Appprototype.png": "/profolio/static/media/Appprototype.cae27dd9.png",
@@ -21,6 +21,7 @@
     "static/media/Inventory Demo.mp4": "/profolio/static/media/Inventory Demo.952f2430.mp4",
     "static/media/P2.mp4": "/profolio/static/media/P2.d879ae99.mp4",
     "static/media/PlaygroundGame.png": "/profolio/static/media/PlaygroundGame.20363fee.png",
+    "static/media/SDLC_BWC.png": "/profolio/static/media/SDLC_BWC.0c409971.png",
     "static/media/Sticker.png": "/profolio/static/media/Sticker.06d63a27.png",
     "static/media/angular.jpg": "/profolio/static/media/angular.b5045666.jpg",
     "static/media/bootstrap.jpg": "/profolio/static/media/bootstrap.bd712487.jpg",
@@ -28,6 +29,7 @@
     "static/media/all.min.css": "/profolio/static/media/fa-solid-900.efbd5d20.eot",
     "static/media/fps demo.mp4": "/profolio/static/media/fps demo.e1b04bcd.mp4",
     "static/media/fpsgame.png": "/profolio/static/media/fpsgame.8949f196.png",
+    "static/media/initialVideo.mp4": "/profolio/static/media/initialVideo.5d09776d.mp4",
     "static/media/joysticker.png": "/profolio/static/media/joysticker.a7bdcba9.png",
     "static/media/master final project.png": "/profolio/static/media/master final project.32747a6f.png",
     "static/media/miniGame.png": "/profolio/static/media/miniGame.a8a8f2b2.png",
@@ -54,8 +56,8 @@
   "entrypoints": [
     "static/js/runtime-main.b74864fc.js",
     "static/css/2.b8bbb11a.chunk.css",
-    "static/js/2.1a83e004.chunk.js",
+    "static/js/2.f4704a06.chunk.js",
     "static/css/main.a4540c6b.chunk.css",
-    "static/js/main.8609d5c8.chunk.js"
+    "static/js/main.40399170.chunk.js"
   ]
 }

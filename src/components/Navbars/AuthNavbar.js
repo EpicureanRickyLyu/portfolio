@@ -14,7 +14,7 @@ export default function Navbar(props) {
               className="text-blueGray-200 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
               to="/"
             >
-              Profolio
+              Portfolio
               
             </Link>
             <button

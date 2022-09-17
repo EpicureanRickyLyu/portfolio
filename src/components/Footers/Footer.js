@@ -4,10 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className="relative bg-blueGray-200 pt-8 pb-6">
-        <div
-          className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
-          style={{ transform: "translateZ(0)" }}
-        >
+        <div>
           <svg
             className="absolute bottom-0 overflow-hidden"
             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +23,7 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl font-semibold">Let's keep in touch first(๑•̀ㅂ•́)و✧ !</h4>
+              <h4 className="text-3xl font-semibold">Let's just keep in touch first !</h4>
               {/* <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
                 @Thanks fro 
               </h5> */}
@@ -70,7 +67,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-blueGray-500 font-semibold py-1">
-                Time © {new Date().getFullYear()} Thanks for Notus React {" "}
+                Time © {new Date().getFullYear()} Powered By Haitao  {" "}
               </div>
             </div>
           </div>

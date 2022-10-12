@@ -1,3 +1,3 @@
-# portfolio
-* React 17.0.1
-* Notus React
+# Portfolio
+* Powered by Haitao with React 17.0.1
+* Thanks for Notus React
